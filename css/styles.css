@@ -21,7 +21,7 @@
   cursor: pointer;
 }
 .top-row{
-  padding-top: 10%;
+  padding-top: 10px;
 }
 .slideshow{
   padding-top: 2vh;
@@ -95,4 +95,19 @@ li:hover i {
 .facebrock button {
   width: 100%;
   color: #7fd6f1;
+}
+
+@media screen and (max-width:576px) {
+  .sidebar ul {
+    padding-top: 5%;
+    margin-left: 0;
+    margin-left: 19%;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .sidebar li {
+    text-align: left;
+  }
 }
