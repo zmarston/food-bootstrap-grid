@@ -1,0 +1,98 @@
+.sidebar img {
+  width: 150px;
+  /*padding-top: 35%;*/
+}
+.sidebar li {
+  list-style: none;
+  color: #7fd6f1;
+  padding-left: 2vw;
+  text-align: center;
+  /*padding-right: 2vw;*/
+}
+.sidebar ul{
+  padding: 0;
+  padding-top: 20%;
+  font-size: 1.25em;
+  max-width: 150px;
+}
+.sidebar li:hover{
+  color: #5d94a5;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.top-row{
+  padding-top: 10%;
+}
+.slideshow{
+  padding-top: 2vh;
+}
+.carousel-item img{
+  width: 100%;
+  height: 50%;
+}
+.subscribe {
+padding-top: 2vh;
+padding-bottom: 2vh;
+}
+.card img {
+  width: 100%;
+  padding: 4%;
+  box-shadow: 0px 0px 2px 1px #d2d2d2;
+}
+.card {
+  border: none;
+}
+.card-block {
+  padding: 5% 0 0 0;
+}
+.card h4{
+  color: #7fd6f1;
+}
+.card h4:hover {
+  color: #5d94a5;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.footer-right {
+  text-align: right;
+  font-size: 1.5em;
+  color: grey;
+}
+.footer {
+  margin-top: 4vh;
+  border-top: 1px lightgrey solid;
+  padding-top: 2vh;
+}
+.footer-right i:hover {
+  color: black;
+}
+li i {
+  color: grey;
+}
+i {
+  margin-right: 4%;
+}
+li:hover i {
+  margin-left: 5%;
+}
+.tweet {
+  margin-top: 25%;
+  width: 70%;
+}
+.tweet button {
+  width: 100%;
+  color: #7fd6f1;
+}
+.tweet h4 {
+  border-bottom: 1px dashed lightgrey;
+}
+.facebrock {
+  width: 70%
+}
+.facebrock h4 {
+  border-bottom: 1px dashed lightgrey;
+}
+.facebrock button {
+  width: 100%;
+  color: #7fd6f1;
+}

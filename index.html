@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Foodsense Remake</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-lg-3 sidebar">
+          <div class="row top-row">
+            <div class="col-sm-6 col-lg-12">
+              <img src="img/logo.png" alt="logo">
+            </div>
+            <div class="col-sm-6 col-lg-12">
+              <ul class="nav flex-lg-column">
+                <li class="nav-item"><i class="fa fa-snowflake-o hidden-sm-down" aria-hidden="true"></i> We</li>
+                <li class="nav-item"><i class="fa fa-bath hidden-sm-down" aria-hidden="true"></i> Made</li>
+                <li class="nav-item"><i class="fa fa-cube hidden-sm-down" aria-hidden="true"></i> A</li>
+                <li class="nav-item"><i class="fa fa-hand-peace-o hidden-sm-down" aria-hidden="true"></i> Food</li>
+                <li class="nav-item"><i class="fa fa-diamond hidden-sm-down" aria-hidden="true"></i> Website</li>
+              </ul>
+            </div>
+          </div>
+          <div class="tweet hidden-md-down">
+            <h4>Latest Tweet</h4>
+            <br>
+            <button type="button" name="button"><i class="fa fa-twitter" aria-hidden="true"></i> Tweets</button>
+          </div>
+          <br>
+          <div class="facebrock hidden-md-down">
+            <h4>Latest Face</h4>
+            <p>MMM Facebrocks</p>
+            <br>
+            <button type="button" name="button"><i class="fa fa-facebook" aria-hidden="true"></i> Faces</button>
+          </div>
+        </div>
+        <div class="col-lg-9 primary" >
+          <div class="row slideshow">
+            <div id="carouselExampleIndicators" class="carousel slide" data-interval="5000" data-pause="hover" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="d-block w-100" src="img/slideshow1.jpg" alt="First slide">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h3>MMM FOOD</h3>
+                    <p>Look at This Food</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="img/slideshow2.jpg" alt="Second slide">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h3>More Food</h3>
+                    <p>MMM Look at More Food</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="img/slideshow3.jpg" alt="Third slide">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h3>Dont Look At This Food</h3>
+                    <p>You Looked....</p>
+                  </div>
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+          <div class="row subscribe">
+            <form class="form-inline">
+              <label class="sr-only" for="inlineFormInput">Name</label>
+              <input type="text" class="form-control mb-2 mr-sm-2 mb-sm-0" id="inlineFormInput" placeholder="JimBob">
+
+              <label class="sr-only" for="inlineFormInputGroup">Email</label>
+              <div class="input-group mb-2 mr-sm-2 mb-sm-0">
+                <div class="input-group-addon">@</div>
+                <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="email.com">
+              </div>
+              <button type="submit" class="btn btn-primary">gIvE mE yOuR eMaIl</button>
+            </form>
+          </div>
+          <div class="row blog-posts">
+            <div class="card col-sm-6 col-md-3 ">
+              <img class="card-img-top"src="img/morepics1.jpg" alt="">
+              <div class="card-block">
+                <h4 class="card-title">This is the best meal you could ever make.</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p class="card-text small text-muted">November 15th 2017</p>
+              </div>
+            </div>
+            <div class="card col-sm-6 col-md-3 ">
+              <img class="card-img-top"src="img/morepics2.jpg" alt="">
+              <div class="card-block">
+                <h4 class="card-title">This is the best meal you could ever make.</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p class="card-text small text-muted">November 15th 2017</p>
+              </div>
+            </div>
+            <div class="card col-sm-6 col-md-3 ">
+              <img class="card-img-top"src="img/morepics3.jpg" alt="">
+              <div class="card-block">
+                <h4 class="card-title">This is the best meal you could ever make.</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p class="card-text small text-muted">November 15th 2017</p>
+              </div>
+            </div>
+            <div class="card col-sm-6 col-md-3">
+              <img class="card-img-top"src="img/morepics4.jpg" alt="">
+              <div class="card-block">
+                <h4 class="card-title">This is the best meal you could ever make.</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p class="card-text small text-muted">November 15th 2017</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row footer">
+        <div class="footer-left col-xs-6 col-sm-4">
+          <p>Footer Stuff</p>
+          <p class="small text-muted">© 2017 Food Sense, all rights reserved.</p>
+        </div>
+        <div class="footer-right col-xs-6 col-sm-8">
+          <i class="fa fa-facebook" aria-hidden="true"></i>
+          <i class="fa fa-twitter" aria-hidden="true"></i>
+          <i class="fa fa-rss" aria-hidden="true"></i>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
