@@ -96,6 +96,14 @@ li:hover i {
   width: 100%;
   color: #7fd6f1;
 }
+.subscribe {
+  margin-top: 3%;
+  margin-bottom: 3%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  border-top: 1px dashed lightgrey;
+  border-bottom: 1px dashed lightgrey;
+}
 
 @media screen and (max-width:576px) {
   .sidebar ul {
