@@ -100,8 +100,20 @@ li:hover i {
 @media screen and (max-width:576px) {
   .sidebar ul {
     padding-top: 5%;
-    margin-left: 0;
-    margin-left: 19%;
+    display: -webkit-box;
+    margin-left: auto;
+    margin-right: 50%;
+  }
+  .sidebar li {
+    padding-left: 3vw;
+    padding-bottom: 3vw;
+    border-bottom: 1px solid lightgrey;
+  }
+  .nav-item {
+  }
+  .sidebar img {
+    display: block;
+    margin-left: auto;
     margin-right: auto;
   }
 }
